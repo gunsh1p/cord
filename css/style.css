@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+body{
+    transition: 1s;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("../img/inferno_ct.png");
+    font-family: 'Recursive';
+}
+
+header{
+    width: 8;
+    height: 200px;
+    background-color: #9625da;
+    margin: 0px auto;
+}
+
+.header_ul{
+    display: flex;
+}
+
+.header_div{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.header_div > a{
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header_img{
+    width: 100px;
+}
+
+.settings{
+    display: flex;
+}
+
+.chose{
+    width: 33%;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+
+.chose_type{
+    height: 400px;
+    display: flex;
+}
+
+.chose_type > div{
+    width: 50%;
+}
+
+.functions > h1{
+    color: #9625da;
+    font-size: 30px;
+}
+
+.functions > p{
+    font-size: 20px;
+}
+
+.type_img{
+    width: 100px;
+}
+
+.chose_result{
+    height: 300px;
+}
+
+.chose_result > h1{
+    color: #9625da;
+    font-size: 30px;
+}
+
+.chose_result > p{
+    font-size: 20px;
+}
+
+.render_result{
+    height: 350px;
+    border-width: 0px;
+    border-radius: 25px;
+    background-color: #9625da;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Recursive';
+}
+
+.answer{
+    display: none;
+}
+
+.rendered_text{
+    width: 98%;
+    min-height: 300px;
+    padding: 10px 15px;
+    height: auto;
+    margin: 10px auto;
+    background-color: #ffffff;
+}
+
+.recommend{
+    width: 100%;
+    height: 80px;
+    background-color: #9625da;
+    text-align: center;
+}
+
+.recommend > a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}

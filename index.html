@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cord Creater</title>
+</head>
+<body>
+    <header>
+        <nav class="header_nav">
+            <ul class="header_ul">
+                <div class="header_div">
+                    <img src="img/brokencore-logo.jpg" alt="" class="header_img"><br>
+                    <a href="https://brokencore.club/members/4124/">BrokenCore</a>
+                </div>
+                <div class="header_div">
+                    <img src="img/discord-logo.png" alt="" class="header_img"><br>
+                    <a class="discord">Discord</a><br>
+                    <a href="https://discord.gg/7ZT4WN83XK">Discord Server</a>
+                </div>
+                <div class="header_div">
+                    <img src="img/github-logo.png" alt="" class="header_img"><br>
+                    <a href="https://github.com/gunsh1p">GitHub</a>
+                </div>
+                <div class="header_div">
+                    <img src="img/vk-logo.png" alt="" class="header_img"><br>
+                    <a href="https://vk.com/blackbloodredkiss">VK</a>
+                </div>
+                <div class="header_div">
+                    <img src="img/yougame-logo.ico" alt="" class="header_img"><br>
+                    <a href="https://yougame.biz/members/418003/">YouGame</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="settings">
+            <div class="chose chose_type">
+                <div>
+                    <select class="type">
+                        <option value="rage">Rage</option>
+                        <option value="aa">AntiAim</option>
+                        <option value="visual">Visual</option>
+                        <option value="misc">Misc</option>
+                    </select><br>
+                    <img src="img/rage.png" alt="" class="type_img">
+                </div>
+    
+                <div class="functions">
+                    <h1>Functions:</h1>
+    
+                    <!-- RAGE -->
+                    <div class="rage_func">
+                        <input type="checkbox" id="mindmg"><label for="mindmg">Min Damage</label><br>
+                        <div class="mindmg_select">
+                            <p>--------------------------------</p>
+                            <input type="checkbox" id="GENERAL"><label for="GENERAL">GENERAL</label><br>
+                            <input type="checkbox" id="PISTOL"><label for="PISTOL">PISTOL</label><br>
+                            <input type="checkbox" id="HEAVYPISTOL"><label for="HEAVYPISTOL">HEAVY PISTOL</label><br>
+                            <input type="checkbox" id="SCOUT"><label for="SCOUT">SCOUT</label><br>
+                            <input type="checkbox" id="AWP"><label for="AWP">AWP</label><br>
+                            <input type="checkbox" id="AUTOSNIPER"><label for="AUTOSNIPER">AUTOSNIPER</label>
+                            <p>--------------------------------</p>
+                        </div>
+                        <input type="checkbox" id="recharge"><label for="recharge">Recharge Boost</label><br>
+                        <input type="checkbox" id="fakelags_r8"><label for="fakelags_r8">Disable Fake Lags per Revolver</label>
+                    </div>
+    
+                    <!-- AA -->
+                    <div class="aa_func">
+                        <input type="checkbox" id="lowdelta"><label for="lowdelta">Low Delta</label><br>
+                        <input type="checkbox" id="fakeduck_mm"><label for="fakeduck_mm">FD MM</label>
+                    </div>
+    
+                    <!-- VISUAL -->
+                    <div class="visual_func">
+                        <input type="checkbox" id="trail"><label for="trail">Trail</label>
+                    </div>
+    
+                    <!-- MISC -->
+                    <div class="misc_func">
+                        <input type="checkbox" id="fps_boost"><label for="trail">FPS Boost</label>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="chose render_result">
+                Render Code
+            </button>
+    
+            <div class="chose chose_result">
+                <h1>Result:</h1>
+                <p class="rage_res">Rage: </p>
+                <p class="aa_res">AA: </p>
+                <p class="visual_res">Visual: </p>
+                <p class="misc_res">Misc: </p>
+            </div>
+        </div>
+
+        <!--https://beautifier.io-->
+        <div class="answer recommend">
+            <a href="https://www.donationalerts.com/r/gunshiphvh">Support me</a><br>
+            <a href="https://beautifier.io">Beautify Code</a>
+        </div>
+        <div class="answer rendered_text">
+            
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+
+    <!--OBFUSCATOR-->
+    <script src="https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js"></script>
+
+    <!--BEAUTIFIER-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.5/beautify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.5/beautify-css.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.5/beautify-html.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.5/beautify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.5/beautify-css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.5/beautify-html.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/beautify-web/js-beautify/v1.13.5/js/lib/beautify.js"></script>
+    <script src="https://cdn.rawgit.com/beautify-web/js-beautify/v1.13.5/js/lib/beautify-css.js"></script>
+    <script src="https://cdn.rawgit.com/beautify-web/js-beautify/v1.13.5/js/lib/beautify-html.js"></script> -->
+
+</body>
+</html>
